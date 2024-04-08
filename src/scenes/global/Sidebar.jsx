@@ -66,7 +66,7 @@ const Sidebar = () => {
                {/* LOGO AND MENU ICON */}
                <MenuItem 
                   onClick={() => setIsCollapsed(!isCollapsed)}
-                  icon={isCollapsed ? <MapOutlinedIcon /> : undefined}
+                  icon={isCollapsed ? <MenuOutlinedIcon /> : undefined}
                   style={{
                      margin: "10px 0 20px 0",
                      color: colors.grey[100],
