@@ -1,5 +1,5 @@
-import { useTheme } from "@mui/material";
 import { ResponsiveBar } from '@nivo/bar';
+import { useTheme } from "@mui/material";
 import { tokens } from "../theme";
 import { mockBarData as data } from "../data/mockData";
 
@@ -35,6 +35,11 @@ const BarChart = ({ isDashboard = false }) => {
          legends: {
             text: {
                fill: colors.grey[100],
+            },
+         },
+         tooltip: {
+            container: {
+               color: colors.primary[500]
             },
          },
         }}
